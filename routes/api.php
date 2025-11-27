@@ -78,3 +78,6 @@ Route::middleware(['auth:sanctum', 'trip.admin'])->group(function () {
     Route::put('/expenses/{expenseId}', [ExpenseController::class, 'update']);
     Route::delete('/expenses/{expenseId}', [ExpenseController::class, 'destroy']);
 });
+
+
+//Hafizur Rahman
